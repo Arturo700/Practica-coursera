@@ -1,80 +1,145 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset= "utf-8">
+<meta name="viewport" content="width=device-width, initial-escale=1">
 <style>
 
-	h1 {text-align: center
-	}
-	p {font-size: 16px;
-		
-		}
-	div#general1 {border: 3px solid black;
-		background: grey;
-		margin-bottom: 2em; margin-left: 2em; margin-right: 2em;
-		width:300px;
-		height:250;
-		float: left;
-		padding-left:2em; padding-right: 2em; padding-top: 2em;
-	}	
-	div#general2 {border: 3px solid black;
-		background: grey;
-		margin-bottom: 2em; margin-left: 2em; margin-right: 2em;
-		width:300px;
-		height:250px;
-		float: left;
-		padding-left:2em; padding-right: 2em; padding-top: 2em;
-}	
-	div#general3 {border: 3px solid black;
-		background: grey;
-		margin-bottom: 2em; margin-left: 2em; margin-right: 2em;
-		width:300px;
-		height:250px;
-		float:left;
-		padding-left:2em; padding-right: 2em; padding-top: 2em;
-}	
+	body {}
+	.row {width: 100%}
 
-	div#boxlima {background:red;
-		font size: 18px;
-		border:2px solid black;
-		width: 80;
-		text-align: center;
-		padding-left: 2em; padding-right: 2em;
-		position: relative;
-		float:right;
-		
+.container {position: relative;
+top: 60px;
+margin: 15px;
+}	
+.general p {margin top: 18px;
+text-align: justify;
+font-size: 100%;
 }
-    div#boxtrujillo {background: green;
-		font size: 18px;
-		border:2px solid black;
-		width: 80;
-		text-align: center;
-		padding-left: 2em; padding-right: 2em;
-		float:right;
+.main-title {text-align: center;
+margin-bottom: 30px;
+		}
+	.general{position: relative;
+		top: 0;
+		right: 0px;
+		background-color: #999999;
+		margin: 15px;
+		padding: 25px;
+		border: 3px solid #000;
+	}	
+.title-city {position: absolute;
+  top:0;
+  right: 0px;
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+div#boxlima {background: red;		
+}
+div#boxtrujillo {background: green;
+		
+	}
+div#boxarequipa {background: yellow;
+}
+/*desktop*/
+	@media (min-width: 992px) {
+		.col-lg-1, .col-lg-2, .col-lg3, .col-lg-4, .col-lg-5,.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {float: left;
+	}
+.col-lg-1 {
+	width: 8.33%;
+}
+.col-lg-2 {
+	width: 16.2%;
+
+}
+.col-lg-3 {
+	widht: 25%;
+}
+.col-lg-4 {
+		width: 33.33%;
+	}
+
+.col-lg-5 {
+	width: 41.66%;
+}
+
+.col-lg-6 {
+	width: 50%;
+}
+.col-lg-7 {
+	width: 58.33%;
+}
+.col-lg-8 {
+	width:  66.66%;
+}
+.col-lg-9 {
+	width: 74.99%;
+}
+.col-lg-10 {
+	width: 83.33%;
+}
+.col-lg-11{
+	width: 91.66%;
+}
+.col-lg-12 {
+	width: 100%;
+}
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) { .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,.col-md-7, .col-md-8,.col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	float: left;
+}
+		.col-md-6 {
+		width: 50%;	
+	}
+	.col-md-12 {
+		width: 100%;
 
 	}
-	div#boxarequipa {background: yellow;
-		font size: 18px;
-		border:2px solid black;
-		width: 80;
-		text-align: center;
-		padding-left: 2em; padding-right: 2em;
-		float:right;
-
-
+}
+/*mobil*/
+@media (max-width: 767px) {.col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10, .col-m-11, .col-m-12 {
+	float: left;
+}
+.col-m-12 {
+	width: 100%;
+}
+	
+}
 </style>
 <title>Mi tarea</title>
 </head>
 <body>
-<h1> Mi ciudad</h1>
-	<div id="general1">
-<div id="boxlima">Lima</div>	
-<p>Lima es la capital y una megalópolis de la República del Perú.7​ Se encuentra situada en la costa central del país, a orillas del océano Pacífico, conformando una extensa y poblada área urbana conocida como Lima Metropolitana </p></div>
-<div  id="general2">
-	<div id="boxtrujillo">Trujillo</div>
-<p>Trujillo es una ciudad peruana, capital de la provincia homónima y del departamento de La Libertad. Es la tercera ciudad más poblada del país con 1 088 300 habitantes en el año 2021.3​ Está localizada en la Costa Norte peruana en la margen derecha del río Moche, en el valle de Moche. El área metropolitana, de la cual forma parte, se extiende sobre 1084 km² y está conformada por 9 distritos.4​7​</p></div>
-<div id="general3">
-	<div id="boxarequipa">Arequipa</div>
-<p>Arequipa es una ciudad peruana, capital de la provincia y del departamento homónimos. Es la segunda ciudad más poblada del país, después de Lima, albergando una población de 1 121 500 habitantes en el 2021.2​ Desde el punto de vista político cumple el rol de sede oficial del Tribunal Constitucional15​ y es considerada por algunos como la «Capital Jurídica del Perú».</p></div>
+<div class="container">	
+	<div class="row">
+<h1 class="main-title"> Mi ciudad</h1>
+<div class="col-lg-4 col-md-6 col-m-12">
+	<div class="general">
+<div id="boxlima" class="title-city">
+Lima
+</div>	
+<p>Lima es la capital y una megalópolis de la República del Perú.7​ Se encuentra situada en la costa central del país, a orillas del océano Pacífico, conformando una extensa y poblada área urbana conocida como Lima Metropolitana El 18 de enero de 1535, fue fundada con el nombre de Ciudad de los Reyes por el conquistador español Francisco Pizarro dentro de la región agrícola conocida por los indígenas como Lima</p>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-m-12">
+<div class="general">
+	<div id="boxtrujillo" class="title-city">
+	Trujillo
+</div>
+<p>Trujillo es una ciudad peruana, capital de la provincia homónima y del departamento de La Libertad. Es la tercera ciudad más poblada del país con 1 088 300 habitantes en el año 2021.3​ Está localizada en la Costa Norte peruana en la margen derecha del río Moche, en el valle de Moche. El área metropolitana, de la cual forma parte, se extiende sobre 1084 km² y está conformada por 9 distritos.4​7​</p>
+</div>
+</div>
+<div class="col-lg-4 col-md-12 col-m-12">
+<div class="general">
+	<div id="boxarequipa" class="title-city">
+		Arequipa
+	</div>
+<p>Arequipa es una ciudad peruana, capital de la provincia y del departamento homónimos. Es la segunda ciudad más poblada del país, después de Lima, albergando una población de 1 121 500 habitantes en el 2021.2​ Desde el punto de vista político cumple el rol de sede oficial del Tribunal Constitucional15​ y es considerada por algunos como la «Capital Jurídica del Perú».</p>
+</div>
+</div>
+</div>
+</div>
 
 </body>
 </html>
